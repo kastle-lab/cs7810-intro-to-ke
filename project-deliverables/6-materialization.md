@@ -1,0 +1,1 @@
+# Deliverable 6: Materialization of the Knowledge Graph
