@@ -1,5 +1,5 @@
 # Build the Use-case
-1. Create a file called `use-case.md`. The title of the document should be `# Use Case`
+1. Create a file called `use-case.md` from the [template](../templates/use-case.md).
 2. Create a subsection `## Narrative` which should contain a top-level description of your use-case. As a guideline, this section should be about 500 words. This should, at a minimum, answer the questions:
     * Who are you supporting?
     * What are their goals?
