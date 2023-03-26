@@ -1,4 +1,4 @@
-# Deliverable 7: Documentation
+# Create Documentation
 This deliverable has two components: the documentation file and the presentation.
 
 ## Documentation
