@@ -13,34 +13,31 @@ Students enrolled in this course will be exposed to the field of Knowledge Repre
 As a result of their learning experience, students successfully completing this course (or class) can design, materialize, and document a knowledge graph for the purposes of domain representation and (big) data integration. They can execute queries against it to enable downstream applications.
 
 ## Instructor
-Name: Dr. Cogan Shimizu
-
-E-mail: [cogan.shimizu@wright.edu](cogan.shimizu@wright.edu)
-
+Name: Dr. Cogan Shimizu<br>
+E-mail: [cogan.shimizu@wright.edu](cogan.shimizu@wright.edu)<br>
 Website: <https://coganshimizu.com>
 
 ## Office and Communications
-* Office: Joshi 391
-* Virtual Office: <https://wright.webex.com/meet/cogan.shimizu>
-* Office Hours (In-Person): Wednesdays 15:00 pm - 16:00 pm
-* Office Hours (Virtual): By appointment, please e-mail.
+Office (Physical): Joshi 391<br>
+Office (Virtual): <https://wright.webex.com/meet/cogan.shimizu>
+
+Office Hours (In-Person): Wednesdays 15:00 pm - 16:00 pm <br>
+Office Hours (Virtual): By appointment.
 
 ## Class Hours
-* Meeting Hours: 11:00 am - 12:20 pm  
-* Meeting Days: Tuesday and Thursday
+Meeting Hours: 11:00 am - 12:20 pm<br>
+Meeting Days: Tuesday and Thursday
 
 ## Course Materials
 *Recommended* Text Book: Foundations of Semantic Web Technologies. Markus Krötzsch, Pascal Hitzler, and Sebastian Rudolph. Chapman & Hall. 1st Edition.
 
 ## Method of Instruction
-
 * Class content will be conducted in-person.
 * The midterm will be held in-person.
 * The project work will be completed asynchronously.
 * The final presentations will be in-person.
 
 ## Evaluation
-
 The course will be evaluated across nine artifacts.
 * Midterm Exam: 15pts,
 * Project Deliverables: 10pts x 7 = 70pts
