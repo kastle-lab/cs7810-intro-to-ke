@@ -1,4 +1,4 @@
-# Deliverable 6: Materialization of the Knowledge Graph
+# Materialization of the Knowledge Graph
 There are two components to this deliverable: materialization of the graph and executing SPARQL queries to test the graph.
 
 ### Materialization
