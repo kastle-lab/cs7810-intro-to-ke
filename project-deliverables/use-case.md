@@ -10,4 +10,4 @@
 5. Fill the `Existing Resources` section with any resources (e.g., ontologies, knowledge graphs, or standards) which can be used in the project.
 6. Provide all references in the `References` section. References should be numbered starting at 1, listed in order of appearance, and otherwise following the IEEE reference style. Ensure that the DOI is included for every reference, where available.
 
-**Note:** Ensure that each member contributes to this document in explicit commits. Do not squash commits; the `git` history will serve as a record of participation and contribution.
+**Note:** Ensure that each member contributes in explicit commits. Do not squash commits; the `git` history will serve as a record of participation and contribution.

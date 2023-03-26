@@ -13,4 +13,4 @@ This deliverable is comprised of two artifacts: `axioms.md` and `axioms.owl`.
     * Choose an appropriate base URI for your ontology.
     * Render the ontology (i.e., the collection of axioms) in Turtle syntax with the name `schema.ttl` and place in the `schema` directory.
 
-**Note:** Ensure that each member contributes to the artifact via explicit commits. Do not squash commits; the `git` history will serve as a record of participation and contribution.
+**Note:** Ensure that each member contributes in explicit commits. Do not squash commits; the `git` history will serve as a record of participation and contribution.

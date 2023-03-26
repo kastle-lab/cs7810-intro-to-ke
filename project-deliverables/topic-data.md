@@ -8,3 +8,5 @@
   * Timeliness: does creating a knowledge graph for this topic address a current event or important (unsolved) problem?
   * Audience: broadly, who would be interestd in a knowledge graph for this topic?
 * For each topic, identify 5-10 datasets or existing resources that can be used to populate a knowledge graph.
+
+**Note:** Ensure that each member contributes in explicit commits. Do not squash commits; the `git` history will serve as a record of participation and contribution.

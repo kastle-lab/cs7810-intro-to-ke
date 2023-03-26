@@ -13,3 +13,5 @@ There are two components to this deliverable: materialization of the graph and e
 * For each competency question, generate a SPARQL query which will return the answer-set for that competency question.
 * Execute each SPARQL query against the triplestore.
 * Note the answer-set.
+
+**Note:** Ensure that each member contributes in explicit commits. Do not squash commits; the `git` history will serve as a record of participation and contribution.
