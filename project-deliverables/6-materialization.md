@@ -2,7 +2,7 @@
 There are two components to this deliverable: materialization of the graph and executing SPARQL queries to test the graph.
 
 ### Materialization
-* Deploy a triplestore. Choose one of [GraphDB](https://www.ontotext.com/products/graphdb/), [Stardog](https://www.stardog.com/), or [Apache Jena Fuseki](https://jena.apache.org/documentation/fuseki2/)
+* Deploy a triplestore. Choose one of [GraphDB](https://www.ontotext.com/products/graphdb/), [Stardog](https://www.stardog.com/), or [Apache Jena Fuseki](https://jena.apache.org/documentation/fuseki2/) (preferred).
 * Load `schema.ttl` into the triplestore.
 * Modify the [materialization starter code][../templates/rdflib-starter.py] to ingest your data. It is recommended to have a series of these scripts which will run for each dataset that needs to be integrated.
 * For each triplified dataset, load the respective `.ttl` into the triplestore
