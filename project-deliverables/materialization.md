@@ -4,7 +4,7 @@ There are two components to this deliverable: materialization of the graph and e
 ### Materialization
 * Deploy a triplestore. Choose one of [GraphDB](https://www.ontotext.com/products/graphdb/), [Stardog](https://www.stardog.com/), or [Apache Jena Fuseki](https://jena.apache.org/documentation/fuseki2/) (preferred).
 * Load `schema.ttl` into the triplestore.
-* Modify the [materialization starter code][../templates/rdflib-starter.py] to ingest your data. It is recommended to have a series of these scripts which will run for each dataset that needs to be integrated.
+* Modify the [materialization starter code](../templates/rdflib-starter.py) to ingest the data. It is recommended to have a series of these scripts which will run for each dataset that needs to be integrated. These scripts should be placed in the `code` directory.
 * For each triplified dataset, load the respective `.ttl` into the triplestore
 
 ### Validation
