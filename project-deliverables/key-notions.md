@@ -1,5 +1,5 @@
-# Week 2
-1. Create a `key-notions.md` file. It should have the title `# Key Notions`.
+# Identify Key Notions
+1. Create a `key-notions.md` file from the `key-notions.md` [template](../templates/key-notions.md).
 2. Identify a thorough list of key notions. 
     * For each key notion, explain your rationale of why it is a key notion.
     * For each key notion or set of key notions, identify a pattern which can be used to model them, otherwise indicate that there is no existing pattern.
