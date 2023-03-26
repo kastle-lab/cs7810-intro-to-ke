@@ -1,7 +1,7 @@
 # Conduct Systematic Axiomatization
 This deliverable is comprised of two artifacts: `axioms.md` and `axioms.owl`.
 
-1. Create an `axioms.md` file using the [template](../templates/axioms.md) and place in the `deliverables` directory.
+1. Create an `axioms.md` file using the [template](../templates/axioms.md) and place it in the `deliverables` directory.
 2. Use the schema diagrams produced in the previous deliverable and iterate through each node-edge-node construction.
     * Identify from the list of axiom patterns provided during lecture which axioms apply for that construction.<br>
     **Note:** Patterns may already have these axioms provided.
