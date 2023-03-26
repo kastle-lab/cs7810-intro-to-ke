@@ -1,0 +1,6 @@
+# Critique Assignment
+* Create a directory named `critiques` in the group project repository.
+* Create a file named `critique-{wid}.md` from the [critique.md](../templates/critique.md) template for each group member. As such, replace `{wid}` with the appropriate Wings ID. This should have the form `w###xxx`. Each person will complete their critiques individually; this is not a group assignment. 
+* Fill out the appropriate sections in the template. There should be a separate section for each group presentation. Not every strength or weakeness should be about the presentation directly.
+	* A noted _strength_ might be about the clarity or quality of the presentation itself; about a particularly interesting or clever modeling solution; originality, novelty, and timeliness of the use case; or effective competency questions that provide interesting insights across multiple datasets.
+	* A noted _weakness_ might be about the clarity or quality of the presentation itself, a modeling solution that does not make sense, poor quality schema diagrams, or boring (uninsightful) competency questions.
