@@ -13,6 +13,11 @@
 * [yEd](https://yworks.com/yed) -- for graph diagram editing
 * [Protégé](https://protege.stanford.edu/) -- for `ttl` generation
 
+### Triplestores
+* [GraphDB](https://www.ontotext.com/products/graphdb/)
+* [Stardog](https://www.stardog.com/)
+* [Apache Jena Fuseki](https://jena.apache.org/documentation/fuseki2/) (preferred).
+
 ### Additional Educational Resources
 * [The Praxis Initiative](https://the-praxis-initiative.org/)
 * [OBOAcademy](https://oboacademy.github.io/obook/)
