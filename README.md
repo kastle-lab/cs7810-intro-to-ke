@@ -1,5 +1,13 @@
 # CS 7810: Introduction to Knowledge Engineering
 
+## Layout
+* `course-information/` -- contains all administrative course details (i.e., schedule and syllabus)
+* `learning/` -- contains the path through the content modules for this course
+* `assignments/` -- contains the two assignments for this course
+* `project-deliverables/` -- contains descriptions and requirements of the group project deliverables and their order.
+* `templates/` -- contains files which will be modified during the group project
+
+## Resources
 ### Modular Knowledge Graphs
 * [Enslaved Hub](https://enslaved.org/)
 * [KnowWhereGraph](https://knowwheregraph.org/)
