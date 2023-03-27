@@ -1,5 +1,5 @@
 # Identify the Topic and Datasets
-* Create a file called `topic-application.md` from the [template](../templates/topic-application) and place it in the `deliverables` directory.
+* Create a file called `topic-application.md` from the [template](../templates/topic-application.md) and place it in the `deliverables` directory.
 * Amongst group members, identify a 1-3 broad topics to create a knowledge graph. 
   * In previous installations of this course, there has been a KG about [scene descriptions](https://github.com/CJMenart/MetadataRepresentationProject), [airplanes](https://github.com/cs7810-group3/group3Project), and [asteroid mining](https://github.com/meganthehorse/CS7810).
 * Assess the identified broad topics for:
