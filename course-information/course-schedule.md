@@ -4,7 +4,7 @@
 |  Week 2 |         Modeling Fundamentals         |          [Group Submission](../project-deliverables/administrivia.md)          |       In-Person Class      |       In-Person Class      |
 |  Week 3 |         Modeling Technologies         |                 --                 |       In-Person Class      |       In-Person Class      |
 |  Week 4 |       Modular Ontology Modeling       |          Midterm Article           |       In-Person Class      |       In-Person Class      |
-|  Week 5 |              Project Work             | [Topic Application & Data Discovery](../project-deliverables/topic-data.md) |       In-Person Class      |   In-Person Midterm Work   |
+|  Week 5 |              Project Work             | [Topic Application & Data Discovery](../project-deliverables/topic-data.md) |       In-Person Midterm Work      |   In-Person Midterm Work   |
 |  Week 6 |              Project Work             |        [PW: Use Case Document](../project-deliverables/use-case.md)       |       Group Meetings       |       Group Meetings       |
 |  Week 7 |              Project Work             |       [PW: Patterns & Modules](../project-deliverables/key-notions.md)       |       Group Meetings       |       Group Meetings       |
 |  Week 8 |                   --                  |                 --                 |        Spring Break        |        Spring Break        |
