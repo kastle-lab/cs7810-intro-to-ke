@@ -9,10 +9,11 @@ This deliverable has two components: the documentation file and the presentation
 
 ## Presentation
 1. Create a presentation version of the documentation file.
-2. Add an additional section at the end called "Retrospective".
+    * Consider using [marp](https://marp.app/).
+3. Add an additional section at the end called "Retrospective".
     * In this section, put 1-2 comments per group member
     * Include comments re: what went will in this course, what could be changed
     * Provide an overall rating for the course: fun/!fun, useful/!useful, etc.
-3. Upload a PDF rendering of the presentation to the `deliverables` directory.
+4. Upload a PDF rendering of the presentation to the `deliverables` directory.
 
 **Note:** Ensure that each member contributes in explicit commits. Do not squash commits; the `git` history will serve as a record of participation and contribution.
