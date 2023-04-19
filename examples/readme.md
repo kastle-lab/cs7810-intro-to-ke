@@ -17,3 +17,9 @@ When adding a new example to this folder, please add your details below, as such
 
 ### Spring 2023
 
+* SOL
+  - Topic: Asteroids
+  - Topic Description: Our knowledge graph focused on physical, orbital, and economic data related to asteroids within our solar system.
+  - Members: Dave, Brandon Daniel, Miller, Ryan E., Noble, Megan T.
+  - Documentation: [SOL Documentation](./documentation/documentation-SOL.md)
+  - Archival Link: https://github.com/meganthehorse/CS7810
