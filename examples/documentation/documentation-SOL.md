@@ -49,8 +49,7 @@ Source:  [Sky Live](https://theskylive.com/)
 
 #### Description
 The domain of space objects are broken into three subcategories: Artificial Space Objects, Space Weather Phenomena, and Natural Space Objects.  Asteroids exist as a Natural Space Object where object can be further defined as a material object.  An Asteroid is represented by NASA as an object that orbits the sun of the Sol Solar System measuring 33 feet (10 meters) to 329 miles (530 kilometers).  For the SOL of Life, the only celestial body to be concerned with is Asteroid; therefore, the derived understanding begins with an OWL Thing consisting of multiple properties; such as, labeled naming conventions and quantitative measurable components of velocity, semi-major axis, and minimum orbit intersection distance.  Researchers have also predicted properties that benefit exomining operations such as the average profit gained after a mining excavation with consideration of the available valuable materials.  A subsumption is made for Asteroids into Near-Earth Asteroids when their semi-major axis measurement is within a threshold.  The SOSA pattern best reflects the usage of SOL of Life's knowledge graph with respect to the layer of Observations. Asteroids can be represented as a Feature of Interest with a Observations, a Classification, and a Distance Record.  
-![Asteroid](https://github.com/meganthehorse/CS7810/tree/main/schema-diagrams/asteroid/asteroid.jpg)  
-
+![Asteroid](https://github.com/meganthehorse/CS7810/blob/main/schema-diagrams/asteroid/asteroid.jpg)
 #### Axioms
 1. * `Asteroid SubClassOf FeatureOfInterest` <br />
 Every Asteroid is a Feature of Interest.
@@ -87,7 +86,7 @@ Every Asteroid has at minimum 1 Observation.
 
 #### Description
 The derived elemental composition of an Asteroid is a prediction based from infrared readings, as traveling to each individual asteroid remains an unrealistic task. As such, infrared reflections and readings are compared for similarities against known Earth elements and denote the components from the Asteroid's surface. The infrared data has been collected to formulate classifications among clusters of all asteroids for similarities of readings. The infrared readings and cluster family of similar asteroids result in a SMASSII classification which can be represented as a label. For our use case, we're only interested in the asteroid type as a label and decided to disregard the initial observation that lead to the classification.  
-![Asteroid Classification](https://github.com/meganthehorse/CS7810/tree/main/schema-diagrams/asteroid-classification/asteroid-classification.jpg)
+![Asteroid Classification](https://github.com/meganthehorse/CS7810/blob/main/schema-diagrams/asteroid-classification/asteroid-classification.jpg)
 
 #### Axioms
 1. * `AsteroidClassification SubClassOf EntityWithProvenance` <br />
@@ -117,7 +116,7 @@ Every SMASSIIClass has exactly 1 Label.
 
 #### Description
 The end-goal of SOL of Life is to provide insight at a specific point of time for whether an Asteroid is within a means of distance for exomining companies to travel to for mineral extraction operations. As such, the spatial coordinates of an Asteroid is less important than the actual distance from Earth, which acts as a baseline for exomining operations. We used the Record pattern for distance from Earth because it accounts for some Event that occurs at a specific point in time. For our ontology, the Event is simplified as a result for a quantifiable metric for distance from Earth.  
-![Distance Record](https://github.com/meganthehorse/CS7810/tree/main/schema-diagrams/distance-record/distance-record.jpg)
+![Distance Record](https://github.com/meganthehorse/CS7810/blob/main/schema-diagrams/distance-record/distance-record.jpg)
 
 #### Axioms
 1. * `DistanceRecord SubClassOf EntityWithProvenance` <br />
@@ -139,7 +138,7 @@ Every TemporalExtent has exactly 1 xsd:date.
 
 #### Description
 Attributes of asteroids can fit into the Entity With Provenance pattern provided by MODL. Most of our data is gathered by experts in astronomy, such as NASA and MP3C. Using this pattern allows for our end users to trace our data back to a source and the agent or organization that performed the data collection.  
-![Entity With Provenance](https://github.com/meganthehorse/CS7810/tree/main/schema-diagrams/entity-with-provenance/entity-with-provenance.jpg)
+![Entity With Provenance](https://github.com/meganthehorse/CS7810/blob/main/schema-diagrams/entity-with-provenance/entity-with-provenance.jpg)
 
 #### Axioms
 1. * `EntityWithProvenance SubClassOf generatedBy only ProvenanceActivity` <br />
@@ -169,7 +168,7 @@ Every Agent has exactly 1 Name.
 
 #### Description
 Data that describes Asteroids can be represented as Observations from the SOSA pattern which consists of the property that describes the observation along with the quantifiable value. The description of the property follows SOSA's ObservableProperty pattern, and the value follows the aforementioned Result pattern.  With that in mind, the measurable data; such as, mass, value, and velocity are represented as an instance of an Observation.  
-![Observation](https://github.com/meganthehorse/CS7810/tree/main/schema-diagrams/observation/observation.jpg)  
+![Observation](https://github.com/meganthehorse/CS7810/blob/main/schema-diagrams/observation/observation.jpg)  
 
 #### Axioms
 1. * `Observation SubClassOf hasFeatureOfInterest only Asteroid` <br />
@@ -197,7 +196,7 @@ Every PhysicalProperty is an Observable Property.
 
 #### Description
 A Result pattern is used to describe the quantifiable values in the properties of an Asteroid. In our case, the Result notion has a Quantity associated with it, which is a pattern in MODL. A Quantity consists of a Quantity Kind, which is the description indicating the Result's usage, along with the quantifiable value and unit of measurement. Similarly to how controlled vocabularies are used in the Enslaved Ontology, we implement them as a means of scalability of our ontology. They are considered to be separate from the actual ontology yet complement it. A Quantity Kind as controlled vocabulary can consist of, but is not limited to mass, distance from Earth, and velocity. A Unit as controlled vocabulary can consist of, but is not limited to km/s, kg, and AU.  
-![Result](https://github.com/meganthehorse/CS7810/tree/main/schema-diagrams/result/result.jpg)
+![Result](https://github.com/meganthehorse/CS7810/blob/main/schema-diagrams/result/result.jpg)
 
 #### Axioms
 1. *  `Quantity SubClassOf hasQuantityValue only QuantityValue` <br />
@@ -235,7 +234,7 @@ Every Result belongs to exactly 1 Observation or DistanceRecord.
 * @prefix solr: <http://soloflife.org/lod/resource/> .
 
 ### All-Together
-![image](https://github.com/meganthehorse/CS7810/tree/main/schema-diagrams/all-together/all-together.jpg)
+![image](https://github.com/meganthehorse/CS7810/blob/main/schema-diagrams/all-together/all-together.jpg)
 
 # Materialization
 The following directory contains all scripts used throughout the triplification of datasets and the materialization of the knowledge graph.  Triplification is done separately for each dataset used.
