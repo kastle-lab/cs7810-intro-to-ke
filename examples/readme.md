@@ -8,10 +8,10 @@ When adding a new example to this folder, please add your details below, as such
   - Topic: {topic}
   - Topic Description: {description}
   - Members: {m1}, {m2}, {m3}, ...
-  - Documentation: [documentation.md](./documentation-{group name}.md)
+  - Documentation: [documentation.md](./documentation/documentation-{group name}.md)
   - Archival link: {github link}
 
-## Examples Directory
+## Directory
 
 ### Fall 2023
 
