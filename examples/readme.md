@@ -24,6 +24,13 @@ When adding a new example to this folder, please add your details below, as such
   - Documentation: [SOL Documentation](./documentation/documentation-SOL.md)
   - Archival Link: https://github.com/meganthehorse/CS7810
 
+* The Driving Project
+  - Topic: Traffic
+  - Topic Description: Retrieving information from traffic images and determining possible manuevers based on lanes, potential obstacles, traffic instructions, etc.
+  - Members: Jehan Fernando, Christopher Menart, Alex Moore
+  - Documentation: [documentation.md](./documentation/documentation-DrivingProject.md)
+  - Archival link: https://github.com/CJMenart/MetadataRepresentationProject
+
 * Group 3
   - Topic: Aircraft
   - Topic Description: Includes crash, airworthiness directive, and manufacturing company data for individual airplanes.
