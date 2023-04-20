@@ -76,7 +76,7 @@ One of the core imagined functions of our KG is reasoning over what meanuevers a
 
 Theoretically, these could use the Events pattern from MODL, but using ParticipantRoles or SpatioTemporalExtents would significantly increase the complexity of our ontolgoy and does not seem to fit directly into our use cases.
 
-![schema-diagram](schema-diagrams/Car.png)
+![schema-diagram](Images/schema-diagrams/Car.png)
 
 #### Axioms
 * `Car SubClassOf conductingManeuver exactly one Maneuver.`  
@@ -94,7 +94,7 @@ Intersection was the latest addition to the ontology. At first, it was a propert
 
 An Intersection is a collection of lanes which tracks the direction of its attendant lanes--which are incoming or outgoing--and also their cardinality, i.e. what order the roads at an intersection can be found by counting clockwise or counterclockwise around it. We closely considered both the bag and ordered list patterns from MODL to represent this strucutre, but neither felt perfectly appropriate. There are several intricacies specific to traffic intersection, such as the additional pieces of information noted above. Lanes can also touch more than one intersection (in fact, up to two).
 
-![schema-diagram](schema-diagrams/Intersection.png)
+![schema-diagram](Images/schema-diagrams/Intersection.png)
 
 #### Axioms
 * `TouchingIntersection SubClassOf hasDirection exactly 1 Direction`  
@@ -122,7 +122,7 @@ In fact, all Lanes have a direction relative to at least one Intersection. This 
 Another natural unit of consideration for traffic-related reasoning is the "Road". In this ontology, Lanes are the most-used fundamental unit, but Roads do exist, as a collection of Lanes. In fact, a Road is a doubly-linked list of lanes. Lanes use the "directlyLeftOf" and "directlyRightOf" to represent lanes that are adjacent to each other with no other surfaces in between. This is important for determining which lanes can be traversed by cutting across a road, whether by a car performing a lane change or a pedestrian walking through a crossing. Most of the time, these transitive relationships are enough for reasoning about Lanes. Road is technically made redundant by them, but retained not only because it may have future use but for making some rules and axioms considerably more conscise. Determining whether Lanes are in the same Road is simpler to express than checking whether two Lanes are rechable via a chain of leftOf and rightOf relationships.
 
 
-![schema-diagram](schema-diagrams/Lane.png)
+![schema-diagram](Images/schema-diagrams/Lane.png)
 
 #### Axioms
 * `Lane SubClassOf directLeftOf max 1 Lane`  
@@ -155,7 +155,7 @@ Obstacles (or Potential Obstacles) represent things on the road that could block
 
 What we need to know about an PotentialObstacle, and what is modeld, is its position, and, if relevant, its movement in space. Specifically, positions and movements are modeled in terms of which lanes an obstalce is obstructing and which lanes it might obstruct. The Obstacle class is used to mark PotentialObstacles which have become actual Obstacles, that is, occupy space in the road. 
 
-![schema-diagram](schema-diagrams/PotentialObstacle.png)
+![schema-diagram](Images/schema-diagrams/PotentialObstacle.png)
 
 #### Axioms
 * `Position SubClassOf onLane max 2 Lane`   
@@ -181,7 +181,7 @@ What we need to know about an PotentialObstacle, and what is modeld, is its posi
 #### Description
 The scenario is the key notion that organizes all other information in this knowledge graph. Each scenario represents a given image of a traffic situation from the point-of-view of a vehicle in it. Using the traffic image, we may determine the lanes and intersections, as well as all potential obstacles and traffic instruction indicators that may affect our queries regarding potential available maneuevers. All Lanes, Intersections, and obstacles potential or realized belong to a particular Scenario. Additionally, each traffic image will reveal environmental information that may be relevant such as weather conditions, outside temperature, and time of day. These are tracked in the Ontology via several Stub patterns.
 
-![schema-diagram](schema-diagrams/Scenario.png)
+![schema-diagram](Images/schema-diagrams/Scenario.png)
 
 #### Axioms
 * `Scenario SubClassOf hasEnviornment exactly 1 Environment`  
@@ -208,7 +208,7 @@ The scenario is the key notion that organizes all other information in this know
 #### Description
 This key notion encompasses any physical object on or near the road that provides information to drivers, such as road or traffic signs, road markings, and traffic lights. (We exclude lane lines from this definition). Each Traffic Instruction Indicator conveys a traffic instruction, represented using a controlled vocabulary, applied to a given lane or lanes. These instructions will provide information and/or restrictions to the possible maneuvers for the vehicle.
 
-![schema-diagram](schema-diagrams/TrafficInstructionIndicator.png)
+![schema-diagram](Images/schema-diagrams/TrafficInstructionIndicator.png)
 
 #### Axioms
 * `Traffic Instruction Indicator (TII) SubClassOf conveys exactly 1 Traffic Instruction`  
@@ -231,7 +231,7 @@ This key notion encompasses any physical object on or near the road that provide
 * project: <http://www.semanticweb.org/CS7810/Driving/Project#>
 
 ### Schema Diagram
-![schema-diagram](schema-diagrams/all-together.png)
+![schema-diagram](Images/schema-diagrams/all-together.png)
 
 ### Axioms
 * `T SubClassOf for-all hasValue only xsd:AnyValue`  
