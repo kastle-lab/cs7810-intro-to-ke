@@ -23,3 +23,11 @@ When adding a new example to this folder, please add your details below, as such
   - Members: Dave, Brandon Daniel, Miller, Ryan E., Noble, Megan T.
   - Documentation: [SOL Documentation](./documentation/documentation-SOL.md)
   - Archival Link: https://github.com/meganthehorse/CS7810
+
+* The Driving Project
+  - Topic: Car/Self-Driving Car Navigation
+  - Topic Description: Our knowledge graph focused on entities and relationships required for the moment-to-moment navigation of a car through traffic scenarios.
+  - Members: Fernando, Jehan; Menart, Christopher; Moore, Alex
+  - Documentation: [Driving Project Documentation Documentation](./documentation/documentation-the-driving-project.md)
+  - Archival Link: https://github.com/CJMenart/MetadataRepresentationProject
+
