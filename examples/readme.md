@@ -30,3 +30,10 @@ When adding a new example to this folder, please add your details below, as such
   - Members: Jehan Fernando, Christopher Menart, Alex Moore
   - Documentation: [documentation.md](./documentation/documentation-DrivingProject.md)
   - Archival link: https://github.com/CJMenart/MetadataRepresentationProject
+
+* Group 3
+  - Topic: Aircraft
+  - Topic Description: Includes crash, airworthiness directive, and manufacturing company data for individual airplanes.
+  - Members: Antrea Christou, Erin Rogers, Sydney Woods
+  - Documentation: [documentation.md](./documentation/documentation-Group3.md)
+  - Archival link: https://github.com/cs7810-group3/group3Project
