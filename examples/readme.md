@@ -23,3 +23,10 @@ When adding a new example to this folder, please add your details below, as such
   - Members: Dave, Brandon Daniel, Miller, Ryan E., Noble, Megan T.
   - Documentation: [SOL Documentation](./documentation/documentation-SOL.md)
   - Archival Link: https://github.com/meganthehorse/CS7810
+
+* Group 3
+  - Topic: Aircraft
+  - Topic Description: Includes crash, airworthiness directive, and manufacturing company data for individual airplanes.
+  - Members: Antrea Christou, Erin Rogers, Sydney Woods
+  - Documentation: [documentation.md](./documentation/documentation-Group3.md)
+  - Archival link: https://github.com/cs7810-group3/group3Project
