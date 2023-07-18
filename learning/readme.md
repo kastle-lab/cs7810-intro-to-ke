@@ -29,7 +29,7 @@
     * [Schema Diagram](https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Schema.org)
     * Ontology Design Patterns
         * [MODL](https://github.com/kastle-lab/modular-ontology-design-library/)
-        * [ODP Portal](https://ontologydesignpatterns.org/)
+        * [ODP Portal](http://ontologydesignpatterns.org/wiki/Main_Page)
     * [Axiom Patterns](https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Manchester_Syntax)
     * Useful W3C Recommended Ontologies
         * [PROV-O](https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/PROV-O)
