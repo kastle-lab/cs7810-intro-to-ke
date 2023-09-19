@@ -9,9 +9,7 @@ The midterm assignment is to write an article covering (partially) what has been
 * [Nanopublications](https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Nanopublications)
 * [Property Graphs](https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/Property_Graphs)
 * [Reification](https://github.com/KGConf/open-kg-curriculum/blob/master/curriculum/modules/Reification/Reification.md)
-* [What is metadata?](https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/What_is_Metadata)
 * [What is an ontology?](https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/What_is_an_Ontology)
-* [SKOS](https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/SKOS)
 * [Web Ontology Language (OWL)](https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/OWL)
 * [Semantic Web Rule Language (SWRL)](https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules/SWRL)
 
