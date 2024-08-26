@@ -21,11 +21,11 @@ Website: <https://coganshimizu.com>
 Office (Physical): Joshi 391<br>
 Office (Virtual): <https://wright.webex.com/meet/cogan.shimizu>
 
-Office Hours (In-Person): Wednesdays 15:00 pm - 16:00 pm <br>
+Office Hours (In-Person): Wednesdays 15:00 pm - 17:00 pm <br>
 Office Hours (Virtual): By appointment.
 
 ## Class Hours
-Meeting Hours: 11:00 am - 12:20 pm<br>
+Meeting Hours: 12:30 am - 13:50 pm<br>
 Meeting Days: Tuesday and Thursday
 
 ## Course Materials
