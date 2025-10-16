@@ -14,6 +14,10 @@ Bridges Datasets: dataset 1, dataset 2, ...
 * [Potential Dataset Name](https://dataset-link.com/)
 * [Potential Dataset Name](https://dataset-link.com/)
 
+## Existing Resources
+* [Existing Resource Name](https://resource-link.com/)
+* [Existing Resource Name](https://resource-link.com/)
+
 ## References
 <!-- References should follow a consistent format. They should appear in order of appearance in the narrative section. Remove this comment. -->
 [0] Reference
